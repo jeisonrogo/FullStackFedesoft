@@ -1,0 +1,61 @@
+
+
+div{
+    margin: 5px;
+}
+
+#cabecera{
+    width: 100%;
+    height: 100px;
+    background: red;
+}
+#cuerpo{
+    width: 100%;
+    height: 600px;
+    background: blue;
+}
+#izquierda{
+    width: 30%;
+    height: 98%;
+    background: black;
+    float: left;
+}
+#centro{
+    width: 30%;
+    height: 98%;
+    background: yellow;
+    float: left;
+}
+#derecha{
+    width: 30%;
+    height: 98%;
+    background: purple;
+    float: left;
+}
+#piePG{
+    width: 100%;
+    height: 100px;
+    background: chocolate;
+    float: left;
+}
+
+@media only screen and (max-width: 450px) {
+    #izquierda{
+        width: 30%;
+        height: 98%;
+        background: blue;
+        float: left;
+    }
+    #centro{
+        width: 30%;
+        height: 98%;
+        background: red;
+        float: left;
+    }
+    #derecha{
+        width: 30%;
+        height: 98%;
+        background: violet;
+        float: left;
+    }
+}

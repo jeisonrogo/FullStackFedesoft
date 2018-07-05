@@ -1,0 +1,18 @@
+/*combinacion descendiente selector*/
+section p{
+    color : blue;
+}
+/*combinacion hijo >*/
+section > p{
+    color : red;
+}
+/*Combinacion Hermano +*/
+h2 + p{
+    color : blueviolet;
+}
+/*combinacion hermano general ~*/
+h2 ~ p{
+    color : purple;
+}
+
+
