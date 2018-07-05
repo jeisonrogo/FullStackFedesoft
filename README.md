@@ -1,3 +1,7 @@
+![Image](http://www.intersoftware.org.co/sites/default/files/interna_fedesoft.jpg)
+
+---
+
 # FullStackFedesoft
 Repositorio creado con el fin de almacenar los desarrollos del curso de fedesoft
 
