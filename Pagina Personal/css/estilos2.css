@@ -1,0 +1,67 @@
+[saludandoMundo] {
+    color:blue;
+}
+[saludandoMundos] {
+    color: brown;
+}
+
+[saludandoMundo="Saludo mundo 3"]{
+    color:blueviolet;
+    font-size: 20px;
+}
+[saludandoMundos="Saludo mundo 7"]{
+    color: red;
+    font-family: fantasy;
+}
+[saludandoMundos~="9"]{
+    color:peru;
+    font-size: 30px;
+}
+a,
+a:hover,
+a:active,
+a:focus{
+    color:black; 
+    cursor: se-resize
+}
+.mitad1{
+    border-color: black;
+    background: black;
+    float: left;
+    margin: 2%;
+    margin-left: 5%;
+    padding: 1%
+
+}
+.mitad2{
+    border-color: blue;
+    background: blue;
+    float: left;
+    padding: 1%;
+    margin-left: 5%;
+    
+}
+
+#animacion {
+    position: relative;
+    border-color: blue;
+    background: blue;
+    float: left;
+    padding: 1%;
+    margin-left: 5%;
+    animation: slidein;
+    animation-duration: 10s;
+    
+  }
+  
+  @keyframes slidein {
+    from {
+        border-color: blue;
+        background: blue;
+    }
+  
+    to {
+        border-color: black;
+        background: black;
+    }
+  }
