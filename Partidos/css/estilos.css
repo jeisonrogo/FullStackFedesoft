@@ -1,0 +1,42 @@
+h1 {
+  margin-left: 5%;
+}
+
+.ng-repeat {
+  width: 700px;
+  margin-top: 5%;
+  margin-left: 5%;
+  background-color: aqua;
+  border: 2px;
+}
+.ng-repeat .local {
+  width: 50%;
+  float: left;
+}
+.ng-repeat .visi {
+  width: 50%;
+  float: left;
+  height: 40px;
+}
+.ng-repeat li {
+  display: inline;
+}
+
+.ng-bandera {
+  width: 500px;
+  top: -300px;
+  position: relative;
+}
+.ng-bandera .local {
+  position: relative;
+  width: 50%;
+  float: left;
+}
+.ng-bandera .visi {
+  position: relative;
+  width: 50%;
+  float: left;
+}
+.ng-bandera li {
+  display: inline;
+}

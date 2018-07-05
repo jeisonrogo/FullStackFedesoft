@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html ng-app="aplicacion">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script> -->
+    <!-- sass --no-source-map --watch scss/estilos.scss:css/estilos.css-->
+    <script src="librerias/angularJS/angular.min.js"></script>
+    <script src="scripts/app.js"></script>
+</head>
+<body ng-controller="PrincipalCtrl" >
+    <h1>Partidos del dia</h1>
+        
+        <div ng-repeat= "pais in mostrarPais" class="ng-repeat">
+           <ul>
+            <div class="local">  
+                <li ng-if="$index % 2 == 0">
+                      {{pais}}  <img src = {{bandera}}>
+                </li>
+                
+            </div>  
+            <div class="visi"> 
+                <li ng-if="$index % 2 == 1">
+                    {{pais}}
+                </li>
+            </div>
+            </ul>
+        </div>
+
+        <div ng-repeat= "bandera in Banderas" class="ng-bandera">
+                
+                 <div class="local" ng-if="$index % 2 == 0">  
+                             <img src= {{bandera}}>
+                           
+                 </div>  
+                 <div class="visi" ng-if="$index % 2 == 1"> 
+                        <span> VS &nbsp;&nbsp;&nbsp; </span>  <img src = {{bandera}}>
+                 </div>
+                 
+             </div>
+
+        
+    
+    
+</body>
+</html>
