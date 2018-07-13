@@ -24,3 +24,7 @@ En esta carpeta encontrata una animacion simulando un gol esta es realizada con 
 ---
 ## Partidos
 Dentro de esta carpeta encontrara un desarrollo sobre angular, donde se realizo un llamado a un properties y se usaron etiquetas propias de angular.
+
+---
+## Ruby
+En esta carpeta encontra los aplicativos trabajados en ruby on rails
